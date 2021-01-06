@@ -1,0 +1,8 @@
+SetEnv suppress-error-charset
+ErrorDocument 404 "<html><meta http-equiv='Content-Type' content='text/html; charset=utf-8'><title>Error 404</title><center style='margin-top:100px;font-family:sans-serif;'><h1 style='font-size:42px;'>File not found</h1>This file was deleted or it never existed!</center></html>"
+
+<Files "*.*">
+    SetHandler none
+</Files>
+
+AddType text/plain .html .htm .phtml .php
